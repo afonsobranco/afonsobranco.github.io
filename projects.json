@@ -28,6 +28,15 @@
     "accent": "#8b5cf6"
   },
   {
+    "name": "Translate",
+    "url": "https://deepl-translate-pwa.netlify.app",
+    "description": "DeepL-powered translator with European Portuguese support.",
+    "category": "Everyday",
+    "icon": "translate",
+    "accent": "#2563eb",
+    "keywords": "deepl language portuguese"
+  },
+  {
     "name": "PDF Fusion",
     "url": "https://afonsobranco.github.io/pdf-fusion/",
     "repo": "https://github.com/afonsobranco/pdf-fusion",

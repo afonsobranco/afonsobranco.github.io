@@ -28,7 +28,7 @@ Add an entry to [`projects.json`](projects.json), then commit and push. The page
 | `category` | no | Any text. A new category gets its own section and filter chip on its own. Defaults to "Other". |
 | `repo` | no | Shows a "Code" link |
 | `private` | no | `true` hides the Code link |
-| `icon` | no | One of `weather`, `mountain`, `teleport`, `pdf`, `record`, `compress`, `code`, `regex`, `contrast`, `path`, `glass`, `ratio`, `tool`. Anything else shows the first letter of the name. To add a new icon, add an SVG to `ICONS` in `app.js`. |
+| `icon` | no | One of `weather`, `mountain`, `teleport`, `translate`, `pdf`, `record`, `compress`, `code`, `regex`, `contrast`, `path`, `glass`, `ratio`, `tool`. Anything else shows the first letter of the name. To add a new icon, add an SVG to `ICONS` in `app.js`. |
 | `accent` | no | Hex color for the icon tile |
 | `keywords` | no | Extra words for search |
 | `hidden` | no | `true` keeps the entry in the file but hides its card |
