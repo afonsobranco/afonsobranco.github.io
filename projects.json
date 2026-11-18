@@ -1,0 +1,111 @@
+[
+  {
+    "name": "Tuna Weather",
+    "url": "https://tuna-weather-app.vercel.app",
+    "repo": "https://github.com/afonsobranco/tuna-weather-app",
+    "description": "Weather forecasts plus the stories of every place.",
+    "category": "Everyday",
+    "icon": "weather",
+    "accent": "#0ea5e9"
+  },
+  {
+    "name": "Ascent",
+    "url": "https://ascent-console.vercel.app",
+    "repo": "https://github.com/afonsobranco/ascent-training",
+    "private": true,
+    "description": "Training progression dashboard for strength, running and CrossFit plans.",
+    "category": "Everyday",
+    "icon": "mountain",
+    "accent": "#f97316"
+  },
+  {
+    "name": "Universal Teleporter",
+    "url": "https://afonsobranco.github.io/universal-teleporter/",
+    "repo": "https://github.com/afonsobranco/universal-teleporter",
+    "description": "Unit and currency converter that understands plain English, formulas and ranges.",
+    "category": "Everyday",
+    "icon": "teleport",
+    "accent": "#8b5cf6"
+  },
+  {
+    "name": "PDF Fusion",
+    "url": "https://afonsobranco.github.io/pdf-fusion/",
+    "repo": "https://github.com/afonsobranco/pdf-fusion",
+    "description": "Merge and compress PDF files entirely in your browser.",
+    "category": "Files & Media",
+    "icon": "pdf",
+    "accent": "#ef4444"
+  },
+  {
+    "name": "Orbit Capture",
+    "url": "https://afonsobranco.github.io/orbit-capture/",
+    "repo": "https://github.com/afonsobranco/orbit-capture",
+    "description": "Screen recorder with WebM and GIF export, trimming and audio capture.",
+    "category": "Files & Media",
+    "icon": "record",
+    "accent": "#ec4899"
+  },
+  {
+    "name": "Payload Compressor",
+    "url": "https://afonsobranco.github.io/payload-compressor/",
+    "repo": "https://github.com/afonsobranco/payload-compressor",
+    "description": "Drag-and-drop image optimizer that never uploads your files.",
+    "category": "Files & Media",
+    "icon": "compress",
+    "accent": "#14b8a6"
+  },
+  {
+    "name": "CharCode",
+    "url": "https://afonsobranco.github.io/Charcode/",
+    "repo": "https://github.com/afonsobranco/Charcode",
+    "description": "Unicode and HTML entity converter: code points, UTF-8 bytes, CSS/JS escapes and more.",
+    "category": "Developer",
+    "icon": "code",
+    "accent": "#6366f1"
+  },
+  {
+    "name": "Regex Sentinel",
+    "url": "https://regex-sentinel.vercel.app",
+    "repo": "https://github.com/afonsobranco/regex-sentinel",
+    "description": "Breaks regex patterns into a visual token tree with live match highlighting.",
+    "category": "Developer",
+    "icon": "regex",
+    "accent": "#22c55e"
+  },
+  {
+    "name": "Contrast Checker",
+    "url": "https://afonsobranco.github.io/contrast-checker/",
+    "repo": "https://github.com/afonsobranco/contrast-checker",
+    "description": "WCAG 2.1 and APCA contrast checks with color-blindness simulation.",
+    "category": "Design",
+    "icon": "contrast",
+    "accent": "#64748b"
+  },
+  {
+    "name": "SVG Path Lab",
+    "url": "https://svg-path-lab.vercel.app",
+    "repo": "https://github.com/afonsobranco/svg-path-lab",
+    "description": "Paste an SVG path to inspect, edit and visualize its commands.",
+    "category": "Design",
+    "icon": "path",
+    "accent": "#eab308"
+  },
+  {
+    "name": "Glassmorphism Engine",
+    "url": "https://glassmorphism-engine.vercel.app",
+    "repo": "https://github.com/afonsobranco/glassmorphism-engine",
+    "description": "Glass-effect CSS generator with live preview and Tailwind, React and Vue output.",
+    "category": "Design",
+    "icon": "glass",
+    "accent": "#06b6d4"
+  },
+  {
+    "name": "Aspect Ratio Calculator",
+    "url": "https://afonsobranco.github.io/aspect-ratio-calculator/",
+    "repo": "https://github.com/afonsobranco/aspect-ratio-calculator",
+    "description": "Aspect ratio and resolution calculator with presets, safe zones and physical sizes.",
+    "category": "Design",
+    "icon": "ratio",
+    "accent": "#a855f7"
+  }
+]

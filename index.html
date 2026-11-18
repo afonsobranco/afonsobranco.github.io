@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Tuna's Utility Tools</title>
+  <meta name="description" content="One place for all of Tuna's web tools and apps.">
+  <meta name="theme-color" content="#f6f7f9" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0b0f17" media="(prefers-color-scheme: dark)">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Tuna Tools">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <script>
+    // Apply the saved theme before first paint to avoid a flash.
+    try {
+      var t = localStorage.getItem('theme');
+      if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t;
+    } catch (e) {}
+  </script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="./" aria-label="Tuna's Utility Tools, home">
+        <img src="icons/icon.svg" alt="" width="40" height="40">
+        <span>
+          <span class="brand-title">Tuna's Utility Tools</span>
+          <span class="brand-sub" id="subtitle">Every web tool, one link</span>
+        </span>
+      </a>
+      <div class="header-actions">
+        <button class="btn-install" id="install" type="button" hidden>Install app</button>
+        <button class="icon-btn" id="theme" type="button" aria-label="Theme: system">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-system"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="toolbar">
+    <div class="wrap toolbar-inner">
+      <label class="search">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <span class="sr-only">Search tools</span>
+        <input id="q" type="search" placeholder="Search tools" autocomplete="off" spellcheck="false">
+        <kbd aria-hidden="true">/</kbd>
+      </label>
+      <div class="chips" id="chips" role="group" aria-label="Filter by category"></div>
+    </div>
+  </div>
+
+  <main class="wrap" id="main" aria-live="polite">
+    <p class="status">Loading tools…</p>
+  </main>
+
+  <footer class="wrap site-footer">
+    <p id="ios-hint" hidden>On iPhone: tap <strong>Share</strong> → <strong>Add to Home Screen</strong> to use this as an app.</p>
+    <p><a href="https://github.com/afonsobranco" target="_blank" rel="noopener">github.com/afonsobranco</a></p>
+  </footer>
+
+  <!-- UI icons -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24"><path d="M20.5 14.1A8.5 8.5 0 1 1 9.9 3.5a7 7 0 0 0 10.6 10.6z"/></symbol>
+    <symbol id="i-system" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></symbol>
+  </svg>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
